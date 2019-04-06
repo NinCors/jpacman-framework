@@ -13,10 +13,7 @@ import nl.tudelft.jpacman.level.Player;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import static java.lang.System.out;
 
-
-import javax.swing.*;
 import java.util.List;
 
 
@@ -60,7 +57,7 @@ Then  I win the game.
 */
 
 public class MoveTest02 {
-    public static final String TESTMAP = "/map/moveTest02_board.txt";
+    public static final String TESTMAP = "/map/test02/moveTest02_board.txt";
     private Launcher launcher;
     private Game game;
     private Player player;
